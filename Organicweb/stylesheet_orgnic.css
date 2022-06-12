@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .header1{
+    background-color:gray
+} */
+.header2{
+    background-color:rgba(72, 167, 72,0.8);
+    margin-right: 0px;
+    
+
+}
+
+.sec12{
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: burlywood; */
+    
+
+}
+    .sec11{
+        font-size: 35px;
+        font-weight: bold;
+    }
+ .sec2 li{
+     cursor:pointer;
+     margin-left: 5px;  
+     text-decoration: underline;
+     font-size: 20px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:768px){
+    #sec1-img {
+     display: none;
+    }
+}
+
+@media screen and (max-width:900px){
+    .menu111 {
+    text-align: center;
+    cursor:pointer;
+    }
+}
+
+@media screen and (max-width:900px){
+    .menu11 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    cursor:pointer;
+   
+    }
+}
+
+.bar1{
+    margin-left: 155px;
+}
+
+@media screen and (max-width:768px){
+    .bar1 {
+     margin-left: 0px;
+     background-color: peru ;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    #menu1 ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:768px){
+    .sec11{
+        display: none;
+        
+    }
+}
+
+#anim:hover{
+    transition: all .5s ease;
+     transform: scale(1.1);  
+
+}
+.back{
+    background-image: url("./images_all/kisspng-organic-food-nutrient-dietary-supplement-mineral-v-jungle-border-png-image-5a79ecc23e7805.3013814615179399062559\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    /* background-color: rgba(110, 161, 163,0.4); */
+}
+.backv{
+    background-color: pink;
+
+}
+
+.abc{
+    
+    border: 2px solid green;   
+}
+.abc22{
+    /* background-color: aqua; */
+            position: relative;
+            width: 360px; 
+             height: 395px; 
+            overflow-y: hidden;
+            overflow-x: hidden;
+}
+.abc223{
+    position: absolute;
+    /* top:80%; */
+    width: 80%;
+    left: 35px;
+}
+
+.abc22:hover .abc223{
+    transition: all .5s ease;
+    transform:scale(1.1) ;
+    top:90%
+}
+/* section2 cart start */
+
+/* section2 cart end */
+
+
+.footer{
+    background-color:rgba(72, 167, 72,0.8);
+}
+
